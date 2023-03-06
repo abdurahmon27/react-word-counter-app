@@ -1,0 +1,109 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Cascadia Code", sans-serif;
+}
+.brand {
+    color: #484848;
+    font-size: 48px;
+}
+.textarea {
+    border: 1px solid #484848;
+    border-radius: 12px;
+    color: #484848;
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+}
+.box-child {
+    color: #484848;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    margin-left: 50px;
+    padding: 5px;
+    border: 1px solid #484848;
+    border-radius: 12px;
+    width: 100px;
+    outline: none;
+    color: #ffffff;
+    background-color: #484848;
+}
+.btn:hover
+{
+    background-color: #252525;
+}
+a {
+    color: #484848;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1023px) {
+    .box {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .brand
+    {
+        font-size: 20px;
+        color: #484848;
+        margin: auto;
+    }
+    .textarea {
+        width: 290px;
+        height: 200px;
+    }
+    .footer {
+        margin: auto;
+    }
+    .box-child {
+        color: #484848;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn {
+        font-size: 28px;
+        width: 150px;
+    }
+}
+.opacity-0
+{
+    display: none;
+}
+.like-earner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+.like-earner>button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border: none;
+    outline: none;
+    background-color: #484848;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
