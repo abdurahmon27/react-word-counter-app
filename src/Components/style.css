@@ -80,30 +80,7 @@ a {
         width: 150px;
     }
 }
-.opacity-0
+p
 {
-    display: none;
-}
-.like-earner
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-}
-.like-earner>button
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    border: none;
-    outline: none;
-    background-color: #484848;
-    color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    top: 0;
 }
